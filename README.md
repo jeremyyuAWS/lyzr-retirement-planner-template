@@ -1,103 +1,124 @@
-# 🧓💬 Retirement Planner Agent Demo
+📄 PRD: AI Webinar Outreach Agent Demo App  
+📍 Goal: Reach out to 1000+ prospects via multi-channel outreach (email, SMS, LinkedIn, voice), convert them into webinar registrants using agent automation and a chat-first UI.
 
-Welcome to the Retirement Planner Agent Demo, a modular AI-powered assistant designed to help users and financial advisors collaboratively plan for retirement. This application supports **two interaction modes** – *Customer* and *Advisor* – and is built using simulated data for demonstration purposes.
+=====================
+🔧 1. SYSTEM OVERVIEW
+=====================
+This demo app simulates an AI-powered agent workflow to drive webinar registrations through personalized outbound engagement. It supports modular tabs, scoped conversation flows, and synthetic data, built using `shadcn/ui`, React, and Tailwind.
+
+===========================
+🧱 2. ARCHITECTURE & SETUP
+===========================
+- Modular folder structure for each tab/agent
+- Simulated data in JSON format (no live APIs)
+- UI-first design (chat + visual content per tab)
+- Pre-written, multi-turn conversations autoplayed
+
+**/components/**
+- ChatModal.tsx
+- EmailOutreach.tsx
+- SMSAgent.tsx
+- LinkedInAgent.tsx
+- CallAgent.tsx
+- RegistrationDashboard.tsx
+
+**/data/**
+- leads.json
+- webinar_details.json
+- outreach_templates.json
+- simulated_responses.json
+
+**/agents/**
+- email_agent.json
+- sms_agent.json
+- linkedin_agent.json
+- call_agent.json
+
+**/public/images/**
+- avatars, webinar flyer, outreach screenshots
+
+===============================
+🧠 3. CORE MODULES & FEATURES
+===============================
+
+### 1. **Plan Campaign** (Tab 1)
+- Set up webinar title, date, CTA link
+- Upload contact CSV or choose segment
+- Agent recommends best outreach channels based on metadata
+
+### 2. **Email + SMS Outreach** (Tab 2)
+- Simulate email + SMS drip sequence (template + personalization)
+- Show example outreach with open/response tracking
+
+### 3. **LinkedIn Outreach** (Tab 3)
+- Simulate AI reaching out via InMail + DMs
+- Suggests message variants by title, location, or company
+
+### 4. **Voice Agent Outreach** (Tab 4)
+- Simulate a voice call campaign (TTS sample using ElevenLabs or similar)
+- Show lead responses + follow-up automation
+
+### 5. **Registration Conversion Dashboard** (Tab 5)
+- Display synthetic stats: reach rate, conversions, bounce rate
+- Show feedback loop to retrain messages (Agentic loop)
+
+=======================================
+🧹 4. RETIREMENT PLANNER CLEAN-UP GUIDE
+=======================================
+
+Delete these files and references from the existing Retirement Planner Bolt app:
+
+🗑️ **Components to Delete**  
+- `/components/Plan.tsx`  
+- `/components/Simulate.tsx`  
+- `/components/Compare.tsx`  
+- `/components/Finalize.tsx`
+
+🗑️ **Data Files to Delete**  
+- `/data/retirement_plan.json`  
+- `/data/retirement_assumptions.json`  
+- `/data/simulation_results.json`
+
+🗑️ **Images to Delete**  
+- Any `/public/images/retirement_*.*` files
+
+🧼 **Other Clean-up**  
+- Replace `/agents/*retirement*.json` with outreach agent configs  
+- Update project metadata (README, titles, and tab labels)
+
+=======================
+📈 5. UX & UI PRINCIPLES
+=======================
+- Chat modal with "Auto Play Demo" per tab  
+- Floating chat on bottom right, single click open/close  
+- Use realistic avatars for each agent (email, SMS, etc.)  
+- Autotyping animation for realism  
+- "Reset" and "Replay Tab" buttons  
+- Rich visuals (email previews, SMS screenshots, audio waveform)
+
+==============================
+🧪 6. DEMO BEHAVIOR SIMULATION
+==============================
+
+Pre-written chat sequences for:
+- Email outreach with subject line A/B testing
+- SMS timing effectiveness
+- LinkedIn message variants
+- Voice call script: AI asks, waits, responds, then sends link
+
+=================================
+🔚 7. DELIVERABLES & NEXT STEPS
+=================================
+
+✅ Fully modular Bolt app  
+✅ Simulated outreach logic and data  
+✅ Clear tab-based navigation  
+✅ Marketing demo narrative  
+✅ Clean removal of all retirement planner content  
 
 ---
 
-## 🔁 Modes of Interaction
+📌 Name Suggestion: `WebiGenie`  
+📣 Tagline: *“AI-Powered Outreach to Fill Your Webinar Room”*
 
-### 1. **Customer Mode**
-For individuals planning their retirement journey. The chat agent collects financial and personal planning data to generate tailored portfolio options.
-
-### 2. **Advisor Mode**
-For financial professionals who review, customize, and finalize retirement plans for clients. Advisors can interact directly with portfolio options through embedded chat agents.
-
----
-
-## 🧠 AI-Powered Agent Features
-
-| Agent | Description | Used In |
-|-------|-------------|---------|
-| **Questionnaire Agent** | Conversational agent that gathers retirement goals, savings, income, age, and risk tolerance | Customer & Advisor Mode |
-| **Portfolio Recommender Agent** | Generates 3 recommended investment strategies: Aggressive, Balanced, and Safe | Customer & Advisor Mode |
-| **Plan Explainer Agent** | Responds to questions about the generated portfolios using natural language | Customer & Advisor Mode |
-| **Plan Editor Agent** | Enables financial advisors to modify portfolios using chat-based commands (e.g., "add bonds", "reduce equities") | Advisor Mode only |
-| **Simulated Data Agent** | Provides mock user profiles and investment performance scenarios | Both Modes |
-
----
-
-## 📊 Visualizations
-
-Each retirement plan includes clear, easy-to-understand visual components:
-
-- **Portfolio Breakdown** (Pie Chart)
-  - Asset allocation across Stocks, Bonds, REITs, International, etc.
-- **Projected Retirement Value** (Bar Chart)
-  - Expected total value at retirement age
-- **Annual Withdrawal Estimate** (Numeric Table)
-  - Forecasted annual withdrawal capacity based on strategy
-- **Risk Profile Indicators** (Badge or Color Scale)
-  - Highlights comparative volatility and expected returns
-
----
-
-## 💬 Sample Questions & Inputs
-
-The AI will ask the following questions in **Customer Mode**:
-
-- 🧍‍♂️ What is your current age?
-- 🎯 What age do you plan to retire?
-- 💵 What is your current annual income?
-- 💰 How much do you currently have saved?
-- 📈 What is your expected annual savings going forward?
-- 🧘 How would you describe your risk tolerance? (Low / Medium / High)
-- 🌴 What kind of lifestyle do you want in retirement?
-
-In **Advisor Mode**, the same questions are collected but used to simulate an intake form or live customer session.
-
----
-
-## 🧑‍💼 Advisor-Specific Features
-
-- View client profile and their recommended options
-- Click into any of the 3 portfolios (Aggressive / Balanced / Safe)
-- Chat with a portfolio:
-  - “Replace international stocks with U.S. equities.”
-  - “Reduce risk by shifting 15% into fixed income.”
-  - “Add ESG funds to this mix.”
-
-The portfolio is dynamically rebalanced and returns updated charts and risk assessments after each interaction.
-
----
-
-## 🧪 Sample Simulated Data
-
-```json
-{
-  "age": 35,
-  "retirement_age": 65,
-  "current_savings": 150000,
-  "income": 90000,
-  "risk_tolerance": "Medium",
-  "expected_growth": {
-    "aggressive": "8%",
-    "balanced": "6%",
-    "safe": "4%"
-  },
-  "projected_values": {
-    "aggressive": "$2.3M",
-    "balanced": "$1.7M",
-    "safe": "$1.2M"
-  }
-}
-```
-
----
-
-## ⚙️ Tech Stack (Suggested for Implementation)
-
-- **Lyzr Studio** – Agent orchestration and prompt management
-- **Bolt.new** – Frontend UI for toggling modes and chat experiences
-- **Supabase** – Backend for storing session info and simulated profiles
-- **D3.js or Chart.js** – Visualizations for portfolios
-- **Prefect or Airflow** – Optional orchestration of refresh jobs and tracking
+Let me know if you want a starter folder structure or markdown-based `README.md` for GitHub/Bolt.
