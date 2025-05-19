@@ -2,7 +2,14 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        border: 'hsl(var(--border))',
+      },
+      borderColor: {
+        DEFAULT: 'hsl(var(--border))',
+      },
+    },
   },
   plugins: [],
 };
