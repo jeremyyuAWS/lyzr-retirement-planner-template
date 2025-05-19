@@ -1,0 +1,77 @@
+{
+  "email": [
+    {
+      "id": "email-template-1",
+      "name": "Value Proposition Focus",
+      "subject": "Reserve Your Seat: {webinarTitle} (Limited Capacity)",
+      "body": "Hello {firstName},\n\nI wanted to personally invite you to an exclusive webinar we're hosting on advanced marketing strategies that's particularly relevant for professionals in your position at {company}.\n\n**{webinarTitle}**\nDate: June 15, 2025\nTime: 11:00 AM - 12:00 PM EST\n\nIn this session, you'll discover:\n• AI-driven customer journey optimization techniques\n• Zero-party data collection strategies that don't feel intrusive\n• Cross-channel personalization approaches that drive 40%+ engagement\n• Predictive analytics methods you can implement within 30 days\n\nWe've limited registration to ensure meaningful Q&A and networking opportunities.\n\n**>>> [Register Now](https://webigenie.com/register/marketing-strategies-2025) <<<**\n\nI hope you can join us! Feel free to reply if you have any questions.\n\nBest regards,\nAlex Johnson\nChief Marketing Officer\nGrowthTech Solutions"
+    },
+    {
+      "id": "email-template-2",
+      "name": "Problem-Solution Approach",
+      "subject": "Struggling with marketing ROI, {firstName}? This webinar can help",
+      "body": "Hi {firstName},\n\nAre your marketing campaigns delivering the ROI they should? If you're like most {company} leaders in the industry today, you're likely facing challenges with:\n\n• Rising customer acquisition costs\n• Difficulty measuring true campaign impact\n• Channel saturation and diminishing returns\n• Tracking the customer journey across touchpoints\n\nThat's why we've put together a practical, solutions-focused webinar specifically for marketing leaders like you:\n\n**{webinarTitle}**\nJune 15, 2025 | 11:00 AM - 12:00 PM EST\n\nThis isn't a theoretical discussion - you'll walk away with actionable strategies you can implement within 30 days to address these exact challenges.\n\n**>>> [Secure Your Spot](https://webigenie.com/register/marketing-strategies-2025) <<<**\n\nSpaces are limited to ensure quality interactions and personalized Q&A.\n\nLooking forward to seeing you there,\n\nAlex Johnson\nChief Marketing Officer\nGrowthTech Solutions"
+    },
+    {
+      "id": "email-template-3",
+      "name": "Peer Benchmark Approach",
+      "subject": "See how your marketing strategy compares to industry leaders",
+      "body": "Hello {firstName},\n\nHow does your marketing approach at {company} compare to others in your industry?\n\nWe've analyzed strategies from over 250 leading companies and identified surprising patterns in what's working now (and what's not) for 2025.\n\nI'd like to invite you to a exclusive webinar where we'll share these benchmarks and best practices:\n\n**{webinarTitle}**\nJune 15, 2025 | 11:00 AM EST\n\nAs a marketing leader, you'll benefit from:\n• Comparing your current approach against industry benchmarks\n• Seeing real examples from companies achieving 3X the average conversion rates\n• Identifying specific gaps and opportunities in your strategy\n• Networking with peers facing similar challenges\n\nPlus, all attendees receive our proprietary research report (not available elsewhere).\n\n**>>> [Compare Your Strategy](https://webigenie.com/register/marketing-strategies-2025) <<<**\n\nLooking forward to seeing you there,\n\nAlex Johnson\nChief Marketing Officer\nGrowthTech Solutions"
+    }
+  ],
+  "sms": [
+    {
+      "id": "sms-template-1",
+      "name": "Brief & Direct",
+      "content": "Hi {firstName}! You're invited to our exclusive webinar '{webinarTitle}' on June
+       15th. Limited spots available. Register here: https://webigenie.com/r/ms25"
+    },
+    {
+      "id": "sms-template-2",
+      "name": "Question-Based",
+      "content": "{firstName}, want to stay ahead of 2025 marketing trends? Join our expert webinar on June 15th at 11am EST. Register: https://webigenie.com/r/ms25"
+    },
+    {
+      "id": "sms-template-3",
+      "name": "Value-First",
+      "content": "{firstName}: Learn 3 marketing strategies driving 40%+ ROI growth in our June 15 webinar. Exclusive tactics + live Q&A. Secure your spot: https://webigenie.com/r/ms25"
+    }
+  ],
+  "linkedin": [
+    {
+      "id": "linkedin-template-1",
+      "name": "Personalized Invitation",
+      "connectionNote": "Hi {firstName}, I noticed we're both in the {industry} space. I'd love to connect to share insights about marketing strategies for 2025 and beyond.",
+      "content": "Hi {firstName},\n\nThanks for connecting! I wanted to personally invite you to an exclusive webinar we're hosting on June 15th: '{webinarTitle}.'\n\nGiven your role at {company} and your interest in {interests}, I thought this would be particularly valuable for you. We'll be covering actionable strategies for marketing leaders, including AI implementation, zero-party data, and cross-channel personalization.\n\nWould you be interested in attending? I'd be happy to send you the registration link. We're keeping the group small to ensure meaningful discussion.\n\nBest regards,\nAlex"
+    },
+    {
+      "id": "linkedin-template-2",
+      "name": "Industry Insight Focus",
+      "connectionNote": "Hello {firstName} - I came across your profile and was impressed by your experience in {industry}. Would love to connect and share some industry insights.",
+      "content": "Hi {firstName},\n\nThank you for connecting! I've been researching challenges facing {industry} companies like {company}, particularly around marketing ROI and customer acquisition.\n\nBased on conversations with other {industry} leaders, these seem to be common pain points. That's why we've put together a focused webinar specifically addressing these challenges with practical solutions you can implement quickly.\n\nThe webinar is on June 15th: '{webinarTitle}'\n\nWould something like this be relevant to your current priorities? I'd be happy to share more details or send you the registration link if you're interested.\n\nBest,\nAlex"
+    },
+    {
+      "id": "linkedin-template-3",
+      "name": "Peer Group Invitation",
+      "connectionNote": "Hi {firstName} - Looking to expand my network with forward-thinking {industry} professionals. Your background at {company} caught my attention.",
+      "content": "Hello {firstName},\n\nThank you for connecting! I'm putting together a small group of {industry} marketing leaders for a closed-door webinar discussion on June 15th about emerging strategies for 2025.\n\nThe session will focus on concrete tactics driving measurable results, not theoretical concepts. Several of your industry peers from companies like [Company 1], [Company 2], and [Company 3] have already confirmed their participation.\n\nGiven your experience with {interests} at {company}, your perspective would be incredibly valuable to the conversation. Would you be interested in joining?\n\nThe session is called '{webinarTitle}' and runs for just 60 minutes with ample time for discussion and networking.\n\nLet me know if you'd like a calendar invite with the registration details.\n\nBest regards,\nAlex"
+    }
+  ],
+  "voice": [
+    {
+      "id": "voice-template-1",
+      "name": "Direct Value Proposition",
+      "script": "Hello, may I speak with {firstName} {lastName}?\n\n[Wait for confirmation]\n\nHi {firstName}, this is Alex from GrowthTech Solutions. I'm calling because we're hosting an exclusive webinar for marketing leaders like yourself at {company} on Advanced Marketing Strategies for 2025.\n\n[Pause]\n\nThe reason I thought of you specifically is that we'll be covering [personalized topic based on industry/role], which I believe aligns with your current priorities.\n\n[Pause for response]\n\nThe webinar is on June 15th at 11 AM Eastern, and we're keeping it small to ensure everyone gets value and can ask questions. Would you be interested in receiving the registration details?\n\n[If yes]\nGreat! Would you prefer I email or text you the link? I can send it right now while we're on the call.\n\n[If no]\nNo problem at all. Is there a specific reason it doesn't fit your needs right now? We do have other resources that might be helpful.\n\n[Closing]\nThank you for your time today, {firstName}. If you have any questions before the webinar, please don't hesitate to reach out directly. Have a great day!"
+    },
+    {
+      "id": "voice-template-2",
+      "name": "Problem-Solution Script",
+      "script": "Hello, is this {firstName} {lastName}?\n\n[Wait for confirmation]\n\nHi {firstName}, my name is Alex calling from GrowthTech Solutions. I hope I caught you at an okay time? I'll be brief.\n\n[Pause]\n\nI'm reaching out to marketing leaders like yourself who are facing challenges with [industry-specific challenge]. Does that resonate with what you're experiencing at {company}?\n\n[Wait for response and acknowledge]\n\nThe reason I'm calling is that we're hosting a focused webinar specifically addressing this challenge with practical solutions. It's called '{webinarTitle}' and it's happening on June 15th.\n\nWe've limited registration to ensure quality interaction. Given your role, I thought you'd get particular value from the session on [personalized topic].\n\n[Pause]\n\nWould you be interested in learning more about this?\n\n[If yes]\nExcellent. What's the best way to send you the registration information - email or text message?\n\n[If no]\nI completely understand. May I ask what would make this more relevant to your current priorities?\n\n[Closing]\nI appreciate your time today, {firstName}. If anything changes or you have questions, my contact information will be in the [email/text]. Thank you and have a great day!"
+    },
+    {
+      "id": "voice-template-3",
+      "name": "Peer Reference Approach",
+      "script": "Hello, am I speaking with {firstName} {lastName}?\n\n[Wait for confirmation]\n\nHello {firstName}, this is Alex from GrowthTech Solutions. I'll be brief - I'm calling because several marketing leaders in the {industry} space like [Name] from [Company] and [Name] from [Company] are participating in an exclusive webinar we're hosting, and I thought you might be interested as well.\n\n[Pause]\n\nThe session focuses on '{webinarTitle}' and will include strategies specifically relevant to your work at {company}. It's happening on June 15th at 11 AM Eastern.\n\n[Pause for response]\n\nThe reason I thought of you specifically is that we'll be covering [personalized topic], which I understand is relevant to your current initiatives.\n\n[Pause]\n\nIs this something that would be valuable for you?\n\n[If yes]\nWonderful! What's your preferred way to receive the registration details - should I send an email or text message?\n\n[If no]\nI understand completely. Out of curiosity, what marketing challenges are currently top of mind for you?\n\n[Closing]\nThank you for your time today, {firstName}. I'll [send the details/make a note of your feedback]. Feel free to reach out if anything changes or if you have questions. Have a great day!"
+    }
+  ]
+}

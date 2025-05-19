@@ -1,0 +1,72 @@
+[
+  {
+    "id": "lead-001",
+    "firstName": "John",
+    "lastName": "Smith",
+    "email": "john.smith@techcorp.com",
+    "phone": "+1-555-123-4567",
+    "title": "Marketing Director",
+    "company": "TechCorp",
+    "industry": "Software",
+    "location": "San Francisco, CA",
+    "interests": "marketing automation",
+    "mutualConnections": 3,
+    "timezone": "PST"
+  },
+  {
+    "id": "lead-002",
+    "firstName": "Sarah",
+    "lastName": "Jones",
+    "email": "sarah.jones@globalretail.com",
+    "phone": "+1-555-234-5678",
+    "title": "VP of Digital Marketing",
+    "company": "Global Retail Inc.",
+    "industry": "Retail",
+    "location": "Chicago, IL",
+    "interests": "customer experience",
+    "mutualConnections": 5,
+    "timezone": "CST"
+  },
+  {
+    "id": "lead-003",
+    "firstName": "Michael",
+    "lastName": "Lee",
+    "email": "michael.lee@innovatefin.com",
+    "phone": "+1-555-345-6789",
+    "title": "CMO",
+    "company": "Innovate Financial",
+    "industry": "Financial Services",
+    "location": "New York, NY",
+    "interests": "data analytics",
+    "mutualConnections": 2,
+    "timezone": "EST"
+  },
+  {
+    "id": "lead-004",
+    "firstName": "Emily",
+    "lastName": "Chen",
+    "email": "emily.chen@medtech.org",
+    "phone": "+1-555-456-7890",
+    "title": "Director of Growth",
+    "company": "MedTech Innovations",
+    "industry": "Healthcare",
+    "location": "Boston, MA",
+    "interests": "lead generation",
+    "mutualConnections": 4,
+    "timezone": "EST"
+  },
+  {
+    "id": "lead-005",
+    "firstName": "Robert",
+    "lastName": "Wilson",
+    "email": "robert.wilson@ecogoods.com",
+    "phone": "+1-555-567-8901",
+    "title": "Head of Digital Marketing",
+    "company": "EcoGoods",
+    "industry": "Consumer Goods",
+    "location": "Austin, TX",
+    "interests": "content marketing",
+    "mutualConnections": 1,
+    "timezone": "CST"
+  }
+]
